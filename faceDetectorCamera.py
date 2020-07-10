@@ -17,7 +17,7 @@ import numpy as np
 cap = cv2.VideoCapture(1)
 
 # import classify the haar cascade face detector file.
-face_classifier = cv2.CascadeClassifier("HaarCascade/haarcascade_frontalface_default.xml")
+face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 def run():
 	_ ,frame = cap.read()
